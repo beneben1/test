@@ -1,0 +1,27 @@
+nav ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: rgb(212, 174, 37);
+}
+

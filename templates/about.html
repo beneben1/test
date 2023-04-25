@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+
+{{ super() }}
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Articles</h1>
+            <hr>
+        </div>
+        <div class="col-md-6">
+            <h2>US records over 500,000 COVID-19 deaths</h2>
+            <img src="images\PG_2022.08.11_COVID_featured.jpg" alt="COVID-19 Image" class="img-fluid">
+            <p>USA has now recorded more than 500,000 deaths due to the COVID-19 pandemic.</p>
+            <hr>
+        </div>
+        <div class="col-md-6">
+            <h2>Biden pledges to bring back US to Paris climate accord</h2>
+            <img src="images\biden.jpg" alt="Climate Image" class="img-fluid">
+            <p>President Joe Biden has signed an executive order to rejoin the Paris climate agreement.</p>
+            <hr>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
